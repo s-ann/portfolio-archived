@@ -7,5 +7,21 @@ Get tailored messaging for your goals.
 
 ## Portfolio
 
+<div class="navbar navbar-default">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+          SECRET LINXXXX
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="http://google.com">Google</a></li>
+        </ul>
+      </li>
+      <li><a href="https://www.linkedin.com/in/s-annsexton/">LinkedIn</a></li>
+    </ul>
+  </div>
+</div>
 <!- grid with icons -->
 
