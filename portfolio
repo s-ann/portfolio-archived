@@ -1,27 +1,1158 @@
-## Scientific and Technical Writing
 
-To connect with your readers, you need content that's accurate _and_ accessible. 
-
-Get tailored messaging for your goals.
+<meta charset="UTF-8">
 
 
-## Portfolio
 
-<div class="navbar navbar-default">
-  <div class="container">
-    <ul class="nav navbar-nav">
-      <li class="dropdown">
-        <a class="dropdown-toggle" href="#" data-toggle="dropdown">
-          SECRET LINXXXX
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="http://google.com">Google</a></li>
-        </ul>
-      </li>
-      <li><a href="https://www.linkedin.com/in/s-annsexton/">LinkedIn</a></li>
-    </ul>
-  </div>
-</div>
-<!- grid with icons -->
+
+
+
+	<meta content="width=device-width" name="viewport">
+
+
+
+
+	<meta name="description" content="To connect with your audience, you need content that’s accurate _and_ accessible. Get tailored messaging that will resonate.">
+
+
+
+
+	<meta name="keywords" content=”Susan,Ann,Sexton,technical,science,writing,communication,marketing,engineering,HTML,CSS,digital,content,web">
+
+
+
+
+	<meta name="author" content="S. Ann Sexton">
+
+
+
+
+	<title>Ann Sexton: Scientific &amp; Technical Writing</title>
+
+
+
+
+	
+
+
+
+
+	<!--Open Graph protocol markup for social sharing and image -->
+
+
+
+
+	<meta property="og:title" content=Ann Sexton: Scientific & Technical Writing" />
+
+
+
+
+	<meta property="og:type" content="website" />
+
+
+
+
+	<meta property="og:url" content="https:/s-ann.github.io/portfolio/" />
+
+
+
+
+	<meta property="og:image" content="https://s-ann.github.io/portfolio/resources/images/AS-profile.jpg" />
+
+
+
+
+	<meta property="og:image:width" content="600" />
+
+
+
+
+	<meta property="og:image:height" content="600" />
+
+
+
+
+	<meta property="og:image:alt" content="Ann's profile picture" />
+
+
+
+
+	<!--End OG markup-->
+
+
+
+
+	
+
+
+
+
+	<link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
+
+
+
+
+
+
+
+
+
+
+
+	<link href="resources/css/reset.css" type="text/css" rel="stylesheet">
+
+
+
+
+	
+
+
+
+
+	<!--Bootstrap-->
+
+
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+
+	
+
+
+
+
+	<!--Font awesome-->
+
+
+
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+
+
+
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
+
+
+
+	
+
+
+
+
+	<!--CSS -->
+	<link href="resources/css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="https://s-ann.github.io/portfolio/">
+       				<img id="asimg" alt="AS" src="resources/images/favicon.png">
+     				</a>
+					<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="https://s-ann.github.io/portfolio/">S. Ann Sexton</a>
+				</div>
+				<!-- Dropdown Menu -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#linkedin">LinkedIn</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About me<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#skills">Skills</a></li>
+								<li><a href="#aboutme">Bio</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+</header>
+	<main>	
+		<section id="hero">
+			<div class="jumbotron">
+				<div class="container">
+					<h1 class="display-1" id="jumboheading">Digital Marketing <span style="font-size:75%">&amp;</span> Communication</h1>
+					<br>
+					<p class="lead">To connect with your audience, you need content that’s accurate _and_ accessible.<br><br>
+Get tailored messaging that will resonate.
+	</p>
+					<br><br>
+					<p class="lead"><a class="btn btn-success btn-lg" href="#hireme" role="button">Get communication help</a></p>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio">
+			<div class="container">
+				<h2 class="text-center sect-title">Portfolio</h2>
+				<!-- 1x3 Bootstrap grid of skills with icons -->
+       		<div class="row">
+         			<!-- Campaign Column -->
+         			<div class="col-sm-4 skill text-center">
+						<a class="portsample" href="campaigns.html">
+							<span aria-hidden="true" class="fa fa-at fa-5x"></span>
+							<h3>Lower<br> thirds</h3>
+						</a>
+					</div>
+					<!-- Collateral Column -->
+					<div class="col-sm-4 skill text-center">
+						<a class="portsample" href="collateral.html">
+							<span aria-hidden="true" class="fa fa-book fa-5x"></span>
+							<h3>Marketing<br> collateral</h3>
+						</a>
+					</div>
+					<!-- TC Column -->
+					<div class="col-sm-4 skill text-center">
+						<a class="portsample" href="techwriting.html">
+							<span aria-hidden="true" class="fa fa-edit fa-5x"></span>
+							<h3>Technical<br> writing</h3>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+         			<!-- Creative Column -->
+         			<div class="col-sm-4 skill text-center">
+						<a class="portsample" href="creative.html">
+							<span aria-hidden="true" class="fa fa-code fa-5x"></span>
+							<h3>Creative &amp;<br> writing</h3
+						</a>
+					</div>
+					<!-- Ebook Column -->
+					<div class="col-sm-4 skill text-center">
+						<a class="portsample" href="uxresearch.html">
+							<span aria-hidden="true" class="fa fa-chart-bar fa-5x"></span>
+							<h3>E<br> book</h3>
+						</a>
+					</div>
+					<!-- ID Column -->
+					<div class="col-sm-4 skill text-center">
+						<a class="portsample" href="instructional-design.html">
+							<span aria-hidden="true" class="fa fa-graduation-cap fa-5x"></span>
+							<h3>Long-form<br> content</h3>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+
+
+		</section>
+
+
+
+
+		
+
+
+
+
+		<section id="skills">
+
+
+
+
+			<div class="container">
+
+
+
+				<h2 class="text-left sect-title">Skills</h2>
+
+
+
+
+				<div class="row">
+
+
+
+
+         			<div class="col-sm-6">
+
+
+
+
+						<p class="lead">Here are some of the things I enjoy working on:</p>
+
+
+
+
+						<ul class="unstyled ulcircle">
+
+
+
+
+							<li>Marketing campaigns, especially email nurture</li>
+
+
+
+
+								<li>Content development</li>
+
+
+
+
+								<li>Case studies</li>
+
+
+
+
+			
+
+
+
+
+								<li>Copywriting and editing</li>
+
+
+
+
+								<li>eBooks</li>
+
+
+
+
+								<li>Technical writing</li>
+
+
+
+
+			
+
+
+
+
+		
+
+
+
+
+						</ul>
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						</div>
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<p class="lead"><a class="btn btn-success btn-lg" role="button" id="cvbutton" href="resources/docs/CV_Bieliaieva-Digital_Marketing-Com.pdf">Download my CV</a></p>
+
+
+
+
+				</div>
+
+
+
+
+		</section>
+
+
+
+
+		
+
+
+
+
+		<section id="aboutme">
+
+
+
+
+			<div class="container">
+
+
+
+
+				<h2 class="text-left sect-title">About me</h2>
+
+
+
+
+				<p class="text-left lead">I align messaging with your business goals.</p>
+
+
+
+
+
+<!--
+
+
+
+
+				<p>For over 10 years in communication, I've worked in digital marketing, technical writing, international relations, translation and education.</p>
+
+
+
+
+					
+
+
+
+
+				<p>In all these roles, I’ve been helping people solve business problems, perform tasks more effectively, connect with a large international organization, discover knowledge fostered by experts from other cultures, and overcome language barriers.</p> -->
+
+
+
+
+
+
+
+
+
+
+			</div>
+
+
+
+
+		</section>	
+
+
+
+
+		
+
+
+
+
+		<section id="linkedin">
+
+
+
+
+			<div class="container">
+
+
+
+
+				<h2 class="text-left sect-title">LinkedIn</h2>
+
+
+
+
+
+
+
+
+
+
+
+				<p>Need good <strong>writing</strong>?<br>
+
+
+
+
+				Connect with me on <a href="https://www.linkedin.com/in/s-ann-sexton/">LinkedIn</a>.</p>
+
+
+
+
+			
+
+
+
+
+			
+
+
+
+
+				<div class="row">
+
+
+
+
+					<div class="col-sm-3">
+
+
+
+
+						<div class="contact text-center">
+
+
+
+
+							<a href="https://www.linkedin.com/in/s-ann-sexton/">
+
+
+
+
+								<img src="resources/images/linkedin.png" alt="LinkedIn">
+
+
+
+
+							</a>
+
+
+
+
+							<br><br>
+
+
+
+
+						</div>
+
+
+
+
+					</div>	
+
+
+
+
+
+
+
+
+
+
+
+					<div class="col-sm-3">
+
+
+
+
+						<div class="contact text-center">
+
+
+
+
+							<a href="https://github.com/s-ann">
+
+
+
+
+								 <img src="resources/images/github.png" alt="GitHub">
+
+
+
+
+							</a>
+
+
+
+
+							<br><br>
+
+
+
+
+						</div>
+
+
+
+
+					</div>
+
+
+
+
+				</div>
+
+
+
+
+			</div>
+
+
+
+
+		</section>
+
+
+
+
+		
+
+
+
+
+	</main>
+
+
+
+
+	
+
+
+
+
+	<footer class="footer">
+
+
+
+
+		<div class="container" id="footercontainer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<ul>
+
+
+
+
+				<li><a href="#portfolio">Portfolio</a></li>
+
+
+
+
+				<li><a href="#skills">Skills</a></li>
+
+
+
+
+				<li><a href="#aboutme">Bio</a></li>
+
+
+
+
+			</ul>
+
+
+
+
+		</div>
+
+
+
+
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+
+
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+
+
+   <script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Latest compiled and minified JavaScript for Bootstrap-->
+
+
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
 
